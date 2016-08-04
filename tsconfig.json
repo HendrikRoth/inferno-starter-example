@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"outDir": "dist",
+		"rootDir": "src",
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"sourceMap": true,
+		"noImplicitAny": true,
+		"target": "es5",
+		"jsx": "preserve",
+		"module": "commonjs"
+	},
+	"filesGlob": [
+		"typings/index.d.ts",
+		"src/**/*.tsx"
+	]
+}
